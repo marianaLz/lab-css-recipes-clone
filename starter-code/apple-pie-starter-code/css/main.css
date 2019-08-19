@@ -1,58 +1,45 @@
-*{
-  margin-left: 75px;
-  margin-right: 75px;
+* {
+  margin: 0;
   padding: 0;
 }
-.apple_pie{
-  height: 300px;
-  width: 850px;
-  background-image: url('file:///C:/Users/SAMSUNG/Documents/IH/jueves/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
+.apple_pie {
+  height: 70vh;
+  width: 80vw;
+  background-image: url("../images/apple-pie.jpg");
   background-size: cover;
-  padding-top: 200px;
-  position: relative;
-  text-align: center;
-  font-size: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.5em;
   color: white;
-  margin-left: 40px;
 }
-body{
+body {
+  margin: 0 10vw;
   background-color: white;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
-  margin-bottom: 80px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5em;
+  align-content: center;
 }
-ul{
+ul,
+ol,
+h3,
+p {
   list-style-type: none;
-}
-p{
-  margin-top: 50px;
-  margin-left: 125px;
-  margin-right: 125px;
+  margin: 5vh 10vw;
+  width: 60vw;
   text-align: justify;
 }
-.img1{
-  margin-top: 20px;
-  margin-left: 285px;
-  margin-right: 285px;
-  width: 350px;
-  height: 55px;
+hr {
+  margin: 0 10vw;
+  width: 60vw;
 }
-.img2{
-  margin-top: 20px;
-  margin-left: 325px;
-  margin-right: 325px;
-  width: 250px;
-  height: 60px;
+.img1 {
+  width: 35vw;
 }
-h3{
-  margin-left: 120px;
-  font-weight: 550;
+.img2 {
+  width: 25vw;
 }
-hr{
-  margin-left: 120px;
-  margin-right: 120px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+.center {
+  display: flex;
+  justify-content: center;
 }
